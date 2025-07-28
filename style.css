@@ -1162,9 +1162,16 @@ body {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+  #main-footer {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
   .footer-container {
     flex-direction: column;
     text-align: center;
+    width: 100%;
+    box-sizing: border-box;
   }
 
   .footer-column {
